@@ -1,5 +1,11 @@
 # React Suspense
 
+Among these features is Suspense for data fetching. Suspense is a component 
+that lets your components wait for something to load before rendering, 
+and it does this in a simple and predictable manner. This includes images, scripts, 
+or any asynchronous operation like network requests.
+
+
 > React suspense is all about delaying loading/fetching of data
 
 <Suspense> let you use wait for anything including data fetching, images and scripts
