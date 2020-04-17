@@ -6,6 +6,8 @@
 
 Suspense enable you components to wait before rendering
 
+##### Suspense example
+
 ```` const resource = getProducts();
 
 function Products() {
