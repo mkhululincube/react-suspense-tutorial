@@ -19,9 +19,9 @@ Suspense enable you components to wait before rendering
 function Products() {
   return (
     <Suspense fallback={<h1>Loading products...</h1>}>
-      <ProfileDetails />
+      <RecentProducts/>
       <Suspense fallback={<h1>Loading products...</h1>}>
-        <ProfileTimeline />
+        <RelatedProducts/>
       </Suspense>
     </Suspense>
   );
