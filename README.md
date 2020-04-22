@@ -30,7 +30,11 @@ function Products() {
 function RecentProducts() {
   // Try to read user info, although it might not have loaded yet
   const product = resource.product.read();
-  return <h1>{product.title}</h1>;
+  return (<div>
+<h1>{product.id}</h1>
+<h1>{product.title}</h1>
+</div>
+);
 }
 
 function RelatedProducts() {
