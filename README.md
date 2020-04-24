@@ -26,7 +26,6 @@ function Products() {
     </Suspense>
   );
 }
-
 function RecentProducts() {
   // Try to read user info, although it might not have loaded yet
   const product = resource.product.read();
@@ -36,7 +35,6 @@ function RecentProducts() {
 </div>
 );
 }
-
 function RelatedProducts() {
   // Try to read products, although they might not have loaded yet
   const products = resource.products.read();
